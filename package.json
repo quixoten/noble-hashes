@@ -103,6 +103,11 @@
       "import": "./esm/hmac.js",
       "default": "./hmac.js"
     },
+    "./md5": {
+      "types": "./md5.d.ts",
+      "import": "./esm/md5.js",
+      "default": "./md5.js"
+    },
     "./pbkdf2": {
       "types": "./pbkdf2.d.ts",
       "import": "./esm/pbkdf2.js",

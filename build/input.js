@@ -5,11 +5,12 @@ export { blake2s } from '@noble/hashes/blake2s';
 export { blake3 } from '@noble/hashes/blake3';
 export { hmac } from '@noble/hashes/hmac';
 export { hkdf } from '@noble/hashes/hkdf';
+export { md5 } from '@noble/hashes/md5';
 export { pbkdf2, pbkdf2Async } from '@noble/hashes/pbkdf2';
 export { ripemd160 } from '@noble/hashes/ripemd160';
 export { scrypt, scryptAsync } from '@noble/hashes/scrypt';
-export { sha256 } from '@noble/hashes/sha256';
-export { sha512 } from '@noble/hashes/sha512';
+export { sha224, sha256 } from '@noble/hashes/sha256';
+export { sha384, sha512 } from '@noble/hashes/sha512';
 export {
   sha3_224,
   sha3_256,
